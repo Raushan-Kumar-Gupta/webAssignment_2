@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
+#center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30%;
+}
+#h{
+    text-align: center;
+    opacity: 0;
+  /* border: 2px solid red; */
+}
+#capsule{
+    margin-top: 5px;
+    background-color: #bbb9b9;
+    width: 100%;
+    height: 12px;
+    border-radius: 100px;
+}
+#progress{
+    width: 0%;
+    height: 100%;
+    border-radius: 100px;
+    background-color: rgb(194, 20, 20);
+}

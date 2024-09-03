@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:"Anurati" ;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1715464502545-090ee1dc122f?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+}
+#overlay{
+    height: 100%;
+    width: 100%;
+    background-color:rgba(0, 0, 0, 0.042)
+}
+#center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+#line{
+    height: 2px;
+    width: 100%;
+    background-color: white;
+}
+#center h1{
+    font-weight: 100;
+    letter-spacing: 8px;
+    font-size: 60px;
+}
+button{
+    margin-top: 20px;
+    letter-spacing: 2px;
+    padding: 4px;
+    /* background-color: rgba(255, 255, 255, 0.634); */
+    background-color: transparent;
+    color: white;
+    font-size: medium;
+    border: 2px solid white;
+}
+button:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}

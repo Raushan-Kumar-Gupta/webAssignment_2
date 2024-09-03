@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* position: relative; */
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+}
+#cube{
+    right: 50%;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: red;
+}

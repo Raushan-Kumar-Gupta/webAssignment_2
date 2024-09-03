@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#main{
+    width: 100%;
+    height: 100%;
+}
+#container{
+    padding: 20vh 20vw;
+    /* border: 2px solid red; */
+}
+input{
+    width: 100%;
+    font-size: 25px;
+    outline-color: rgb(68, 68, 238);
+    border-radius: 5px;
+    
+}
+#people{
+    display: flex;
+    gap: 5px;
+    flex-wrap:wrap ;
+    /* border: 2px solid red; */
+    justify-content: space-between;
+}
+#person{
+    margin-top: 10px;
+    text-align: center;
+    width: 120px;
+    /* border: 2px solid rgb(15, 190, 94); */
+
+}
+#image{
+    /* border: 2px solid red; */
+}
+img{
+    width: 100%;
+    height:15vh ;
+    /* border: 2px solid rgb(224, 7, 7); */
+    margin-bottom: 4px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+}

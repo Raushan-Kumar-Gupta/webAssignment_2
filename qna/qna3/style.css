@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;    
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 50px;
+    text-align: center;
+    background-color: aqua;
+   
+}
+input{
+    font-size: 18px;
+}
